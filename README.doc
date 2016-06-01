@@ -7,12 +7,13 @@ Monitor the Ocean atmosphere using sensor data
 Project Objectives:
 This project is designed to develop, implement, and validate a mobile sensor cloud engine for environment sensors to allow San Jose city residents to learn their city environments. 
 
-Description: Our mobile sensor cloud consists of the following components: - 
+Description: Our mobile sensor cloud consists of the following components: 
 Back-end mobile cloud server- which provides service management, monitoring, and dashboard. 
+
 Mobile sensor hub - Each hub can track and report sensor status, report, and collect the live sensor data. Each sensor simulates the data collection, health-check, monitoring of their states. 
 Sensor resource manager – This allocates and manages one or more sensor hub (s) based on users’ on-demand requests.
- Sensor data access manager – This supports user to access the existing sensor data
- Sensor data collector – This collects sensor data based on pre-defined schedules and allocated sensors for each user. 
+Sensor data access manager – This supports user to access the existing sensor data
+Sensor data collector – This collects sensor data based on pre-defined schedules and allocated sensors for each user. 
 Sensor data repository – we have used mongoDB as a sensor data store.
 Dashboard user interface – This component the user interface to support the user and system interactions.
 
@@ -24,6 +25,7 @@ Click on Sign up button
 Fill all the details in the sign up page
 Click on signup button. You will get a successful signup message if you have 
 You can use the credentials you just created to login to application.
+
 Verification
 If log-in was successful, a user dash board page will be displayed.
 
